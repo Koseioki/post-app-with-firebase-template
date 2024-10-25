@@ -10,7 +10,7 @@ export default function CreatePage() {
 
     const post = { caption, image, uid: "ZfPTVEMQKf9vhNiUh0bj" };
 
-    const response = await fetch("https://YOUR-FIREBASE-URL.com/posts.json", {
+    const response = await fetch("https://react-new-1c0a6-default-rtdb.firebaseio.com/posts.json", {
       method: "POST",
       body: JSON.stringify(post)
     });
